@@ -63,14 +63,17 @@ This sample depends on AWS services that might not yet be available in all regio
   
   In the next step you will set up the frontend by hosting it with Amplify 
   
-  1. ```bash amplify add hosting``` 
-
-     Follow the steps accordingly: 
-     Hosting with Amplify console 
-     Manuel deployment
+  1. ```bash 
+          amplify add hosting
+     ``` 
+Follow the steps accordingly: 
+Hosting with Amplify console 
+Manuel deployment
      
      
-  2. ```bash amplify publish```
+  2. ```bash 
+        amplify publish
+     ```
 
 
 
