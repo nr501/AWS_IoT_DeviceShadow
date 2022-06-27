@@ -48,7 +48,7 @@ This sample depends on AWS services that might not yet be available in all regio
   10. Congratulation ! You setup your Amplify environment and created the Amplify User 
   
   
-3.Initialize Amplify project 
+3. Initialize Amplify project 
   
   ```bash
      amplify init
