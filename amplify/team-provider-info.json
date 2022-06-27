@@ -1,0 +1,50 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitaltwin-dev-153217-authRole",
+      "UnauthRoleArn": "arn:aws:iam::979279414632:role/amplify-digitaltwin-dev-153217-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::979279414632:role/amplify-digitaltwin-dev-153217-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-digitaltwin-dev-153217-deployment",
+      "UnauthRoleName": "amplify-digitaltwin-dev-153217-unauthRole",
+      "StackName": "amplify-digitaltwin-dev-153217",
+      "StackId": "arn:aws:cloudformation:eu-central-1:979279414632:stack/amplify-digitaltwin-dev-153217/b24939d0-db76-11ec-9c50-0a7229faad0c",
+      "AmplifyAppId": "d1la4bgp4bq0oi"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1la4bgp4bq0oi",
+          "type": "manual"
+        }
+      },
+      "auth": {
+        "digitaltwinefc6da98": {}
+      }
+    }
+  },
+  "dtwinunibw": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitaltwin-dtwinunibw-172504-authRole",
+      "UnauthRoleArn": "arn:aws:iam::979279414632:role/amplify-digitaltwin-dtwinunibw-172504-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::979279414632:role/amplify-digitaltwin-dtwinunibw-172504-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-digitaltwin-dtwinunibw-172504-deployment",
+      "UnauthRoleName": "amplify-digitaltwin-dtwinunibw-172504-unauthRole",
+      "StackName": "amplify-digitaltwin-dtwinunibw-172504",
+      "StackId": "arn:aws:cloudformation:eu-central-1:979279414632:stack/amplify-digitaltwin-dtwinunibw-172504/efdbb9f0-e74f-11ec-90e2-0217a52eacee",
+      "AmplifyAppId": "d1la4bgp4bq0oi"
+    },
+    "categories": {
+      "auth": {
+        "digitaltwinefc6da98": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1la4bgp4bq0oi",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
