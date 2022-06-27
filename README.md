@@ -9,8 +9,7 @@ Note: For a standardized development environment, consider following our Cloud9 
 
 
 This sample depends on AWS services that might not yet be available in all regions. Please make sure to run this sample in the regions for following AWS services:
-  - AWS Amplify - [supported region]([url](https://docs.aws.amazon.com/general/latest/gr/amplify.html)) 
-  - 
-
+  - AWS Amplify - [supported regions]([url](https://docs.aws.amazon.com/general/latest/gr/amplify.html))
+  - AWS Cognito - [supported regions]([url](https://docs.aws.amazon.com/general/latest/gr/cognito_identity.html))
 
 The project contains many samples, including a simulated cookie factory that you can use to explore many of the features of IoT TwinMaker. After going through this README you will have the following dashboard running in Grafana, which you can use to interact with the sample CookieFactory digital twin.
