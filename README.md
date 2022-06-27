@@ -16,10 +16,16 @@ This sample depends on AWS services that might not yet be available in all regio
 
 ## Deploying the IoT Frontend 
 
-1. Pull this Repository in your Cloud9 environment 
-  
+1. Install libraries
   
   ```bash
-     # Change into the same directory as this README
-     cd [directory_of_this_README]
-     ```
+     #Install the Amplify CLI 
+     npm install -g @aws-amplify/cli
+  ```
+
+  ```bash
+     #Pull this Git repository
+     npm install -g @aws-amplify/cli
+  ```
+
+2. 
