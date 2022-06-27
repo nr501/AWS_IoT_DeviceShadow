@@ -71,7 +71,7 @@ a) Hosting with Amplify console -
 b) Manuel deployment
      
   ```bash 
-        amplify publish
+     amplify publish
   ```
 
 In case the command was successfull you can open the URL provided which will redirect you to the Sign In of your frontend 
