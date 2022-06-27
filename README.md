@@ -36,15 +36,15 @@ This sample depends on AWS services that might not yet be available in all regio
      amplify configure
   ```
   Follow the steps:
-  a. Sign in to your AWS administrator account
-  b. Specify AWS Region you want to deploy the Amplify application
-  c. Specify the username of the IAM User that you will create in the next step 
-  d. Click on the link provided to log into the AWS Management Console
-  e. Select AWS access type (access key for programmatic access is sufficient) - Next: Permissions
-  f. Verify the Policy name "AdministratorAccess-Amplify" is preselected - if not -> select the checkbox 
-  g. Next: Tags and Next: Review
-  h. Create User and copy the Access key ID and secret access key to a local NotePad
-  i. Back in your Cloud9 environment enter the secret key ID and secret access key and press enter 
+  a) Sign in to your AWS administrator account
+  b) Specify AWS Region you want to deploy the Amplify application
+  c) Specify the username of the IAM User that you will create in the next step 
+  d) Click on the link provided to log into the AWS Management Console
+  e) Select AWS access type (access key for programmatic access is sufficient) - Next: Permissions
+  f) Verify the Policy name "AdministratorAccess-Amplify" is preselected - if not -> select the checkbox 
+  g) Next: Tags and Next: Review
+  h) Create User and copy the Access key ID and secret access key to a local NotePad
+  i) Back in your Cloud9 environment enter the secret key ID and secret access key and press enter 
   Congratulation ! You setup your Amplify environment and created the Amplify User 
    
 3. Initialize Amplify project 
