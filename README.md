@@ -14,7 +14,7 @@ This sample depends on AWS services that might not yet be available in all regio
   - AWS Amplify - [supported regions](https://docs.aws.amazon.com/general/latest/gr/amplify.html)
   - AWS Cognito - [supported regions](https://docs.aws.amazon.com/general/latest/gr/amplify.html)
 
-## Deploying the IoT Frontend 
+## Deploying the IoT Frontend with AWS Amplify
 
 1. Install libraries
   
