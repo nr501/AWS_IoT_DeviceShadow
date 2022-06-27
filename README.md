@@ -49,13 +49,11 @@ This sample depends on AWS services that might not yet be available in all regio
    
 3. Initialize Amplify project 
 
-  
   ```bash
      amplify init
   ```
   Note: This step will create AWS resources (S3 Bucket, IAM Role) 
   
-
   ```bash
      amplify push
      npm init
@@ -66,6 +64,7 @@ This sample depends on AWS services that might not yet be available in all regio
   ```bash 
      amplify add hosting
   ```
+  
 When prompted: 
 a) Hosting with Amplify console - 
 b) Manuel deployment
@@ -83,6 +82,14 @@ Amazon Cognito lets you add user sign-up, sign-in, and access control to your we
 
 5. Create IAM Policiy for AWS IoT
 
-Switch to the AWS Manamgement Console and follow Step 1 described [here](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js/#aws-iot). Once created switch to your Cloud9 environment and attach the policy to 
+Switch to the AWS Manamgement Console and follow Step 1 described [here](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js/#aws-iot). Once created switch to your Cloud9 environment and attach the policy with: 
+
+```bash 
+   aws iot attach-policy --policy-name <policy name step 5> --target <Cognito identity pool ID>
+  ```
+  
+ The Congito Identity Pool ID can be found in the in the Idenetity pool in Amazon Congito 
+
+6. 
 
 
