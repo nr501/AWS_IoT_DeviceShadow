@@ -63,16 +63,16 @@ This sample depends on AWS services that might not yet be available in all regio
   
   In the next step you will set up the frontend by hosting it with Amplify 
   
-     ```bash 
-          amplify add hosting
-     ``` 
-a) Hosting with Amplify console 
+  ```bash 
+     amplify add hosting
+  ```
+When prompted: 
+a) Hosting with Amplify console - 
 b) Manuel deployment
      
-     
-     ```bash 
+  ```bash 
         amplify publish
-     ```
+  ```
 
 In case the command was successfull you can open the URL provided which will redirect you to the Sign In of your frontend 
 
@@ -83,6 +83,6 @@ Amazon Cognito lets you add user sign-up, sign-in, and access control to your we
 
 5. Create IAM Policiy for AWS IoT
 
-Switch to the AWS Manamgement Console and follow Step 1 described [here](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js/#aws-iot). Once created switch to your Cloud9 environment and 
+Switch to the AWS Manamgement Console and follow Step 1 described [here](https://docs.amplify.aws/lib/pubsub/getting-started/q/platform/js/#aws-iot). Once created switch to your Cloud9 environment and attach the policy to 
 
 
