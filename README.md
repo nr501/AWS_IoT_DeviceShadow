@@ -19,13 +19,37 @@ This sample depends on AWS services that might not yet be available in all regio
 1. Install libraries
   
   ```bash
+     #npm install downloads a package and it's dependencies
+     npm install 
+  ```
+  
+  ```bash
      #Install the Amplify CLI 
      npm install -g @aws-amplify/cli
   ```
 
   ```bash
      #Pull this Git repository
-     npm install -g @aws-amplify/cli
+     git clone https://github.com/nr501/AWS_IoT_DeviceShadow.git
+     
+     cd AWS_IoT_DeviceShadow
   ```
 
-2. 
+2. Configure Amplify and create Amplify User
+
+  ```bash
+     #Pull this Git repository
+     amplify configure
+  ```
+  Follow the steps:
+  1. Sign in to your AWS administrator account
+  2. Specify AWS Region you want to deploy the Amplify application 
+  3. Specify the username of the IAM User that you will create in the next step 
+  4. Click on the link provided to log into the AWS Management Console
+  5. Select AWS access type (access key for programmatic access is sufficient) - Next: Permissions
+  6. Verify the Policy name "AdministratorAccess-Amplify" is preselected - if not -> select the checkbox 
+  7. Next: Tags and Next: Review
+  8. Create User and copy the Access key ID and secret access key to a local NotePad
+  9. Back in your Cloud9 environment enter the secret key ID and secret access key and press enter 
+  10. Congratulation ! You setup your Amplify environment and created the Amplify User 
+  
